@@ -56,7 +56,7 @@ const Header: FC = () => {
           <Title>Where in the world?</Title>
           <ThemeSwitcher onClick={toogleTheme}>
             {theme === ThemeNames.LIGHT ? <IoMoonOutline size="14px" /> : <IoMoonSharp size="14px" />}
-            <span style={{ marginLeft: '0.75rem' }}>{theme} theme</span>
+            <span style={{ marginLeft: '0.5rem' }}>{theme} theme</span>
           </ThemeSwitcher>
         </Wrapper>
       </Container>
