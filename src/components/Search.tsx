@@ -19,7 +19,7 @@ const InputWrapper = styled.label`
 `
 
 const Input = styled.input.attrs({
-  type: 'search',
+  type: 'text',
   placeholder: 'search country...',
 })`
   margin-left: 1rem;
@@ -27,6 +27,7 @@ const Input = styled.input.attrs({
   border: none;
   color: var(--color-text);
   background-color: var(--color-ui-base);
+  width: 100%;
 `
 
 interface SearchProps {
