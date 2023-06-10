@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from 'react'
+import { IoMoonOutline, IoMoonSharp } from 'react-icons/io5'
 import styled from 'styled-components'
 import { Container } from './Container'
-import { IoMoonOutline, IoMoonSharp } from 'react-icons/io5'
 
 const HeaderElement = styled.header`
   box-shadow: var(--shadow);

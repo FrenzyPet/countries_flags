@@ -1,6 +1,6 @@
 import { FC } from 'react'
-import { Container } from './Container'
 import styled from 'styled-components'
+import { Container } from './Container'
 
 const Wrapper = styled.div`
   padding: 1rem 0;
